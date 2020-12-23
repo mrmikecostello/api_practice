@@ -1,0 +1,891 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124598404-6"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124598404-6');
+        </script>
+<meta charset="utf-8" />
+<title>Disney Arena Top Clubs · DSA.FAN</title>
+<meta name="description" content="Disney Sorcerer's Arena Database - Units, Items, and Battles!">
+<meta name="keywords" content="Disney, Sorcerer's Arena, Disney Arena, DSA, Disney Arena App, Disney Arena Characters">
+<meta name="author" content="">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Disney Arena Top Clubs · DSA.FAN" />
+<meta property="og:url" content="https://dsa.fan/guilds/top-guilds/total_summoner_score" />
+<meta property="og:description" content="Disney Sorcerer's Arena Database - Units, Items, and Battles!" />
+<meta property="og:site_name" content="DSA.FAN - Disney Sorcerer's Arena Database" />
+<meta property="og:image" content="https://dsa.fan/static/images/site-og-image.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="DSA.FAN - Disney Sorcerer's Arena Database" />
+<meta name="twitter:description" content="Disney Sorcerer's Arena Database - Units, Items, and Battles!" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="/static/images/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
+
+<link type="text/css" href="https://s3.amazonaws.com/dsafan-media/styles/dsa.4edecc68.min.css" rel="stylesheet" />
+</head>
+<body class="loading" data-layout="topnav">
+
+<div class="wrapper">
+<div class="content-page">
+<div class="content">
+
+<div class="navbar-custom topnav-navbar topnav-navbar-dark clearfix">
+<div class="container-fluid">
+
+<a href="/" class="topnav-logo">
+<span class="topnav-logo-lg">
+<img src="/static/images/logo.png" alt="" height="66">
+</span>
+<span class="topnav-logo-sm">
+<img src="/static/images/logo_sm.png" alt="" height="16">
+</span>
+</a>
+<ul class="list-unstyled topbar-right-menu float-right mb-0">
+<li class="dropdown notification-list">
+<a class="nav-link nav-user arrow-none mr-0 text-center" href="/accounts/login/">
+<span>
+<span class="account-user-name">Log In</span>
+</span>
+</a>
+</li>
+</ul>
+<a class="navbar-toggle" data-toggle="collapse" data-target="#topnav-menu-content">
+<div class="lines">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</a>
+</div>
+</div>
+
+<div class="topnav shadow-sm">
+<div class="container-fluid">
+<nav class="navbar navbar-light navbar-expand-lg topnav-menu">
+<div class="collapse navbar-collapse" id="topnav-menu-content">
+<ul class="navbar-nav">
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle arrow-none" href="/characters/" id="topnav-units" data-toggle="dropdown" aria-expanded="false">
+<i class="uil-dashboard mr-1"></i>Characters
+</a>
+<div class="dropdown-menu" aria-labelledby="topnav-units">
+<a href="/characters/" class="dropdown-item">Characters</a>
+ <a href="/characters/stats/" class="dropdown-item">Character Stats</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle arrow-none" href="/spells/" id="topnav-apps">
+<i class="uil-apps mr-1"></i>Spells
+</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle arrow-none" href="/tier-list/" id="topnav-dashboards" data-toggle="dropdown" aria-expanded="false">
+<i class="mdi mdi-graph mr-1"></i>Tier List <div class="arrow-down"></div>
+</a>
+<div class="dropdown-menu" aria-labelledby="topnav-dashboards">
+<a href="/tier-list/" class="dropdown-item">Characters</a>
+<a href="/spells/tier-list/" class="dropdown-item">Spells</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle arrow-none" href="/items/" id="topnav-apps">
+<i class="uil-apps mr-1"></i>Items
+</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle arrow-none" href="/news/" id="topnav-apps">
+<i class="uil-newspaper mr-1"></i>News
+</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle arrow-none" href="/players/meta-report/arena/41-50" id="topnav-apps">
+<i class="uil-newspaper mr-1"></i>Meta Report
+</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle arrow-none" href="/guilds/top-guilds/total_summoner_score" id="topnav-apps">
+<i class="uil-newspaper mr-1"></i>Top Clubs
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+
+<div class="container-fluid">
+
+<div class="page-title-box d-flex align-items-center  mt-2 mb-2">
+<div class="flex-fill">
+<h1 class="page-title text-uppercase">Disney Arena Top Clubs</h1>
+</div>
+<div class="flex-shrink-1">
+</div>
+</div>
+
+<div>
+<a href="/guilds/top-guilds/total_summoner_score" class="btn btn-sm btn-default-outline active">By Total Summoner Score</a>
+<a href="/guilds/top-guilds/average_summoner_score" class="btn btn-sm btn-default-outline">By Average Summoner Score</a>
+</div>
+<table class="table table-condensed table-striped" id="players" style="font-family: Helvetica, sans-serif;">
+<thead>
+<tr>
+<th>Name</th>
+<th>Avg Collection Score</th>
+<th>Total Collection Score</th>
+<th>Place</th>
+<th>Last Updated</th>
+</tr>
+</thead>
+<tr>
+<td><a href="/guilds/A67BB8B1">FRONTIERLAND</a></td>
+<td>348117</td>
+<td>17057759</td>
+<td>1</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/14520F15">Disney Titans</a></td>
+<td>329877</td>
+<td>16493899</td>
+<td>2</td>
+<td>Nov. 25, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/1CE45588">TOMORROWLAND</a></td>
+<td>271036</td>
+<td>13009728</td>
+<td>3</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/05230985">Let it Go!</a></td>
+<td>259605</td>
+<td>12980289</td>
+<td>4</td>
+<td>Nov. 14, 2020, 8 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/BD22CBE3">The GOAT Farm</a></td>
+<td>250611</td>
+<td>12530575</td>
+<td>5</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/CF8FEDF4">Finding Meeko</a></td>
+<td>250927</td>
+<td>12295423</td>
+<td>6</td>
+<td>Nov. 25, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/EEB53F6F">Ohana Wayfinders</a></td>
+<td>244949</td>
+<td>12247471</td>
+<td>7</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/14529014">Wizards of Walter</a></td>
+<td>237205</td>
+<td>11860263</td>
+<td>8</td>
+<td>Nov. 21, 2020, 8:11 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/13BACFE4">Disney USA</a></td>
+<td>241425</td>
+<td>11588402</td>
+<td>9</td>
+<td>Nov. 21, 2020, 8:10 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/0F3F23CF">Pridelands 404 Elite</a></td>
+<td>222544</td>
+<td>10904662</td>
+<td>10</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/82BD11E4"> Up!</a></td>
+<td>211472</td>
+<td>10362169</td>
+<td>11</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/75853EB5">The Unfortunates</a></td>
+<td>203890</td>
+<td>10194504</td>
+<td>12</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/AFDF56AC">Twilight Tempest</a></td>
+<td>197169</td>
+<td>9858494</td>
+<td>13</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/5E561428">Mercs Rising</a></td>
+<td>190390</td>
+<td>9519547</td>
+<td>14</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/7CB99641">Me and the boys</a></td>
+<td>188117</td>
+<td>9405899</td>
+<td>15</td>
+<td>Sept. 30, 2020, 7:10 p.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/2BFEEF21">XCEPTION</a></td>
+<td>187961</td>
+<td>9398073</td>
+<td>16</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/0F3F1955">ITALIAN LEGENDS</a></td>
+<td>188181</td>
+<td>9220895</td>
+<td>17</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/FB8029CD">ADVENTURELAND</a></td>
+<td>180575</td>
+<td>9028779</td>
+<td>18</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/BBB4A48E">Mad Tea Party </a></td>
+<td>179604</td>
+<td>8980204</td>
+<td>19</td>
+<td>Nov. 21, 2020, 8:09 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/0C558086">To Sigma and Beyond </a></td>
+<td>190582</td>
+<td>8957363</td>
+<td>20</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/A80882E2">Sigma Strikes Back</a></td>
+<td>181588</td>
+<td>8897815</td>
+<td>21</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/39522F16">Dark Magicians</a></td>
+<td>173878</td>
+<td>8693928</td>
+<td>22</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+ <tr>
+<td><a href="/guilds/0523535C">Pizza Planet Delivery Crew</a></td>
+<td>175807</td>
+<td>8614553</td>
+<td>23</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/BCD2D1CB">Awakened</a></td>
+<td>170687</td>
+<td>8534393</td>
+<td>24</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/A67B7B59">Green mens</a></td>
+<td>170599</td>
+<td>8529984</td>
+<td>25</td>
+<td>Nov. 21, 2020, 8:23 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/5889B25A">950k</a></td>
+<td>173132</td>
+<td>8483479</td>
+<td>26</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/178190DB">魔法總部</a></td>
+<td>169642</td>
+<td>8312475</td>
+<td>27</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/A80857CA">Cozy Chubby Dolphins</a></td>
+<td>164719</td>
+<td>8235954</td>
+<td>28</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/4EA60B17">Villains at Night</a></td>
+<td>164614</td>
+<td>8230712</td>
+<td>29</td>
+<td>Nov. 24, 2020, midnight</td>
+</tr>
+<tr>
+<td><a href="/guilds/5CAE629D">Edna Mode...and Guests</a></td>
+<td>164039</td>
+<td>8201961</td>
+<td>30</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/D2BC1A65">Prideland Exiles</a></td>
+<td>162098</td>
+<td>8104915</td>
+<td>31</td>
+<td>Nov. 21, 2020, 8:23 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/05234FB0">Friends On The Other Side</a></td>
+<td>165346</td>
+<td>8101996</td>
+<td>32</td>
+<td>Nov. 21, 2020, 8:20 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/EEB55FC3">Fizzle</a></td>
+<td>160770</td>
+<td>8038528</td>
+<td>33</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/EE1ADABB">Red Rising</a></td>
+<td>160672</td>
+<td>8033647</td>
+<td>34</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/A67BAF6C">The Little Mermen</a></td>
+<td>160436</td>
+<td>8021814</td>
+<td>35</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/8E3C5A1A">Alianza del Atlántico</a></td>
+<td>159963</td>
+<td>7998154</td>
+<td>36</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/ABA50D11">Huntai</a></td>
+<td>157565</td>
+<td>7878269</td>
+<td>37</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/588971BE">SuperVillainous</a></td>
+<td>156204</td>
+<td>7810244</td>
+<td>38</td>
+<td>Nov. 25, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/A15977AE">Dark Magic Kingdom</a></td>
+<td>155830</td>
+<td>7791527</td>
+<td>39</td>
+<td>Nov. 21, 2020, 8:06 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/39AE116C">YOU CAN FLY!</a></td>
+<td>155311</td>
+<td>7765595</td>
+<td>40</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/1781C0AB">FANTASYLAND</a></td>
+<td>155021</td>
+<td>7751097</td>
+<td>41</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/CF8FCD32">One Jump Ahead!</a></td>
+<td>154873</td>
+<td>7743699</td>
+<td>42</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/13BA7BB9">BRASIL</a></td>
+<td>153082</td>
+<td>7654134</td>
+<td>43</td>
+<td>Nov. 21, 2020, 8:10 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/3CB93F8D">Andy&#x27;s Røøm</a></td>
+<td>162851</td>
+<td>7654021</td>
+<td>44</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/6186BB15">Legion of Epcot</a></td>
+<td>159199</td>
+<td>7641592</td>
+<td>45</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/EEB53A96">Ohana Voyagers</a></td>
+<td>155785</td>
+<td>7633493</td>
+<td>46</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/75853EA7">Maleficent&#x27;s Mages</a></td>
+<td>158947</td>
+<td>7629460</td>
+<td>47</td>
+<td>Nov. 21, 2020, 8:23 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/EEB54D2A">Planet Z!</a></td>
+<td>152240</td>
+<td>7612020</td>
+<td>48</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/13BA0AFD">LEGIONE ITALIANA</a></td>
+<td>150027</td>
+<td>7501385</td>
+<td>49</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/82BDE001">Final Destination</a></td>
+<td>149284</td>
+<td>7464208</td>
+<td>50</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/8550952A">Disney&#x27;s Legionnaires</a></td>
+<td>148726</td>
+<td>7436315</td>
+<td>51</td>
+<td>Nov. 21, 2020, 8:20 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/13BAB187">España</a></td>
+<td>148256</td>
+<td>7412807</td>
+<td>52</td>
+<td>Nov. 21, 2020, 8:10 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/EEB5434F">Shipwreck Cove</a></td>
+<td>147498</td>
+<td>7374910</td>
+<td>53</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/3C11F8E3">Tritons of the GalaxSea</a></td>
+<td>147491</td>
+<td>7374575</td>
+<td>54</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/A8088398">Die Höhle Der Löwen German Club</a></td>
+<td>149929</td>
+<td>7346523</td>
+<td>55</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/39526662">Enchanters</a></td>
+<td>146664</td>
+<td>7333224</td>
+<td>56</td>
+<td>Nov. 14, 2020, 8 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/1CE4B626">Sigma&#x27;s New Groove</a></td>
+<td>146223</td>
+<td>7311181</td>
+<td>57</td>
+<td>Nov. 24, 2020, midnight</td>
+</tr>
+<tr>
+<td><a href="/guilds/13BAED9A">DisneyThailand</a></td>
+ <td>147361</td>
+<td>7220714</td>
+<td>58</td>
+<td>Nov. 21, 2020, 8:10 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/E56A8571">Chocobo Riders</a></td>
+<td>153465</td>
+<td>7212867</td>
+<td>59</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/5E5600ED">The Mighty DuckTales</a></td>
+<td>146660</td>
+<td>7186344</td>
+<td>60</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/BDCC65F0">CF - Splash</a></td>
+<td>143424</td>
+<td>7171209</td>
+<td>61</td>
+<td>Nov. 24, 2020, midnight</td>
+</tr>
+<tr>
+<td><a href="/guilds/85190745">Wonderland Friends</a></td>
+<td>142763</td>
+<td>7138171</td>
+<td>62</td>
+<td>Nov. 24, 2020, midnight</td>
+</tr>
+<tr>
+<td><a href="/guilds/13BA85B4">Dragonbuny</a></td>
+<td>142216</td>
+<td>7110817</td>
+<td>63</td>
+<td>Nov. 21, 2020, 8:10 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/13BA865E">ukz finest</a></td>
+<td>142113</td>
+<td>7105677</td>
+<td>64</td>
+<td>Nov. 21, 2020, 8:10 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/FECD41B5">Mightiest Disney Gays</a></td>
+<td>142093</td>
+<td>7104660</td>
+<td>65</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/CF8FD82C">Iron Giant</a></td>
+<td>144754</td>
+<td>7092982</td>
+<td>66</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/9421A37F">SAMURAI JAPAN</a></td>
+<td>141594</td>
+<td>7079702</td>
+<td>67</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/55863873">Last Hope of Quebec</a></td>
+<td>150259</td>
+<td>7062193</td>
+<td>68</td>
+<td>Nov. 21, 2020, 8:23 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/0C5585E8">Prideland Predators</a></td>
+<td>143420</td>
+<td>7027609</td>
+<td>69</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/8E3CF5DA">Outlands</a></td>
+<td>140321</td>
+<td>7016052</td>
+<td>70</td>
+<td>Nov. 21, 2020, 8:20 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/7A3C4D79">The Prepared</a></td>
+<td>139491</td>
+<td>6974558</td>
+<td>71</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/CCD1678C">JEALPHA DISNEY </a></td>
+<td>138361</td>
+<td>6918066</td>
+<td>72</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/82BD2B86">Le gras c&#x27;est la vie</a></td>
+<td>141183</td>
+<td>6917994</td>
+<td>73</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/5AC7144D">The Disney Wizards</a></td>
+<td>138073</td>
+<td>6903681</td>
+<td>74</td>
+<td>Nov. 25, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/E56A74CE">Sigmas Uncanny X-Force</a></td>
+<td>140790</td>
+<td>6898732</td>
+<td>75</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+ <td><a href="/guilds/ABA51DCA">Beastly Crusaders</a></td>
+<td>136497</td>
+<td>6824851</td>
+<td>76</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/1E505FB9">REY LEÓN SPAIN</a></td>
+<td>136009</td>
+<td>6800469</td>
+<td>77</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/4E31AEDD">Happy Haunts Social Club</a></td>
+<td>135538</td>
+<td>6776918</td>
+<td>78</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/F31C00F6">Black Spire Outpost</a></td>
+<td>134487</td>
+<td>6724352</td>
+<td>79</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/D2BC455A">GHOST TOWN</a></td>
+<td>136409</td>
+<td>6684074</td>
+<td>80</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/1781923B">PlanB</a></td>
+<td>133294</td>
+<td>6664727</td>
+<td>81</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/5E560F25">Lotso&#x27;s Gang</a></td>
+<td>138398</td>
+<td>6643126</td>
+<td>82</td>
+<td>Nov. 21, 2020, 8:23 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/879F6166">[WBBP]WELCOME BACK TO THE BRIAR PATCH</a></td>
+<td>135499</td>
+<td>6639496</td>
+<td>83</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/D25C8414">MickeyMouseClubHouse</a></td>
+<td>132786</td>
+<td>6639314</td>
+<td>84</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/1EFEE717">DisneyArena.Pro OFFICIAL</a></td>
+<td>135284</td>
+<td>6628920</td>
+<td>85</td>
+<td>Nov. 24, 2020, 12:01 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/1E5078FE">Disney Worldwide</a></td>
+<td>131769</td>
+<td>6588494</td>
+<td>86</td>
+<td>Nov. 21, 2020, 8:12 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/6186ED49">Destiny Island!</a></td>
+<td>134257</td>
+<td>6578631</td>
+<td>87</td>
+<td>Nov. 21, 2020, 8:21 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/39AE13AA">canuckleheads</a></td>
+<td>129800</td>
+<td>6490034</td>
+<td>88</td>
+<td>Nov. 21, 2020, 8:23 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/CC87BCDB">Regions Beyond Social Club</a></td>
+<td>129448</td>
+<td>6472429</td>
+<td>89</td>
+<td>Nov. 23, 2020, 6:55 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/37C4DA81">Kidani Village</a></td>
+<td>134131</td>
+<td>6438300</td>
+<td>90</td>
+<td>Nov. 21, 2020, 8:23 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/13BA5C3B">Hellguys</a></td>
+<td>131359</td>
+<td>6436602</td>
+<td>91</td>
+<td>Nov. 21, 2020, 8:09 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/345AD3F3">The Alleycats</a></td>
+<td>128695</td>
+<td>6434774</td>
+<td>92</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/F541239E">☆Cast☆</a></td>
+<td>128664</td>
+<td>6433226</td>
+<td>93</td>
+<td>Nov. 21, 2020, 8:09 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/879F4343">The GOAT Farm Alpha</a></td>
+<td>131066</td>
+<td>6422270</td>
+<td>94</td>
+<td>Nov. 21, 2020, 8:23 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/13BA6823">Disney in日本</a></td>
+<td>128382</td>
+<td>6419136</td>
+<td>95</td>
+<td>Nov. 21, 2020, 8:20 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/3821429A">ITALIAN LEGENDS - Asgard</a></td>
+<td>128050</td>
+<td>6402540</td>
+<td>96</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/CCD17B00">Sigma House of Villains</a></td>
+<td>130594</td>
+<td>6399122</td>
+<td>97</td>
+<td>Nov. 21, 2020, 8:22 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/85505264">Cali Kings</a></td>
+<td>130386</td>
+<td>6388915</td>
+<td>98</td>
+<td>Nov. 21, 2020, 8:20 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/4EA6253A">Off The Wall-E</a></td>
+<td>127771</td>
+<td>6388564</td>
+<td>99</td>
+<td>Nov. 21, 2020, 8:24 a.m.</td>
+</tr>
+<tr>
+<td><a href="/guilds/37C4F64A">Mr. Toads Wild Ride</a></td>
+<td>126797</td>
+<td>6339891</td>
+<td>100</td>
+<td>Nov. 21, 2020, 8:14 a.m.</td>
+</tr>
+</table>
+
+</div>
+
+</div>
+
+
+<footer class="footer">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-6">
+2020 © DSA.fan
+</div>
+<div class="col-md-6">
+<div class="text-md-right footer-links d-none d-md-block">
+<a href="javascript: void(0);">About</a>
+<a href="javascript: void(0);">Support</a>
+<a href="javascript: void(0);">Contact Us</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</div>
+
+
+<script src="/static/js/vendor.min.js"></script>
+<script src="/static/js/app.min.js"></script>
+<script src="/static/js/vendor/moment.min.js"></script>
+<script type="text/javascript">
+            $(function() {
+                $('.datetime').each(function() {
+                  moment().utc();
+                  $(this).html(moment($(this).data('datetime')).utc().fromNow());
+                })
+
+            });
+        </script>
+</body>
+</html>
